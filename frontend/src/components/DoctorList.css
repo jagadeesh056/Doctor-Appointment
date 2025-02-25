@@ -1,0 +1,20 @@
+.doctor-list {
+  text-align: center;
+}
+
+.doctor-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.doctor-list li {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.doctor-list li:hover {
+  background-color: #f0f0f0;
+}
